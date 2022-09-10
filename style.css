@@ -63,6 +63,9 @@ h2{
   margin-bottom: 40px;
 
 }
+.intro-p2{
+  display: none;
+}
 
 .up-box{
   margin-left: 90px;
@@ -70,6 +73,9 @@ h2{
 
 .down-box{
   margin-right: 90px;
+}
+.down-box2{
+  display: none;
 }
 .intro-caption p{
   line-height: 32px;
@@ -101,9 +107,14 @@ h2{
   background-color: #D6E5F9;
   position:relative;
 }
+#courses h2{
+
+  position: relative;
+  z-index: 10;
+}
 canvas{
   position: absolute;
-  top: -100px;
+top:-70px;
 
 }
 .course-contents{
@@ -186,6 +197,9 @@ canvas{
   margin: 0 auto;
 
 }
+.slider-res{
+  display: none;
+}
 .slider div img{
   margin-left: 0;
   margin-right: 0;
@@ -265,12 +279,77 @@ footer p{
     font-size: 13px;
     line-height: 26px;
     width: 302px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align-last: left;
   }
   #intro{
     text-align: center;
   }
   .intro-box img{
     width: 90%;
+  }
+  .down-box{
+    display: none;
+  }
+  .down-box2{
+    display: block;
+  }
+  .intro-p{
+    display: none;
+  }
+  .intro-p2{
+    display: block;
+  }
+  .register{
+    margin-bottom: 100px;
+  }
+  .course-contents{
+    width: 100%;
+  }
+  .course-box{
+    width: 140px;
+    height: 200px;
+    padding: 20px;
+
+  }
+  .course-box img{
+    margin-bottom: 3px;
+  }
+  .course-img{
+    height: 60%;
+    margin-bottom: 3px;
+  }
+  .course-box a{
+    margin: 0 auto;
+    width: 138px;
+  }
+  .course-contents{
+    height: 150vh;
+  }
+  .course-box a{
+    width: 140px;
+  }
+  .slider{
+    display: none;
+  }
+  .slider-res{
+    display: block;
+  }
+  .slick-prev{
+    left: 8px;
+  }
+  .slick-next{
+    right: 8px;
+  }
+  .slider-img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  #access iframe{
+    width: 100%;
+    height: 50vh;
   }
 
 
