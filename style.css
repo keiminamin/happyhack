@@ -306,10 +306,12 @@ footer p{
   }
   .course-contents{
     width: 100%;
+    height: 160vh;
+  }
   }
   .course-box{
     width: 30%;
-    height: 35vh;
+    height: 28vh;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -329,9 +331,8 @@ footer p{
     height: 100px;
   }
 
-  .course-contents{
-    height: 180vh;
-  }
+
+
   .course-box a{
     display: block;
     width: 120px;
