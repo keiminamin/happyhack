@@ -308,28 +308,37 @@ footer p{
     width: 100%;
   }
   .course-box{
-    width: 140px;
-    height: 200px;
+    width: 30%;
+    height: 35vh;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
   }
   .course-box img{
     margin-bottom: 3px;
   }
   .course-img{
-    height: 60%;
-    margin-bottom: 3px;
+    height: 40%;
+    margin-bottom: 5vh;
+    padding: 10px;
   }
-  .course-box a{
-    margin: 0 auto;
-    width: 138px;
+  .js-img{
+    height: 100px;
   }
+
   .course-contents{
-    height: 150vh;
+    height: 180vh;
   }
   .course-box a{
-    width: 140px;
+    display: block;
+    width: 120px;
+    padding: 3px;
+    font-size: 13px;
   }
+
   .slider{
     display: none;
   }
